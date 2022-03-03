@@ -62,4 +62,8 @@ RSpec.describe Note, type: :model do
     )
     expect(Note.search("message")).to be_empty
   end
+
+  # 文字列に一致するメッセージを検索する
+  describe "search message for a term" do
+    
 end
